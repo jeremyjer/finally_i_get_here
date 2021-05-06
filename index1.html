@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Основы</title>
+		<link href="images/14_26.jpg" rel="shortcut icon" type="image/png"/>
+		<link href="css/styles.css" rel="stylesheet" type="text/css"/>
+		
+    </head>
+
+    <body>
+		<div id="wrap">
+			<div id="header">
+				<div class="content"><p>Шапка</p></div>
+			</div>
+			<div id="content">
+				<!--Левая колонка-->
+				<div id="leftcol">
+				<div class="content"><p>Левая колонка</p></div>
+				</div>
+				
+				<!--Правая колонка-->
+				<div id="rightcol">
+				<div class="content"><p>Правая</p></div>
+				</div>
+				
+				<!--Главная часть-->
+				<div id="main">
+				<div class="content"><p>Контент</p></div>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="content"><p>Подвал</p></div>
+			</div>
+		</div>
+		
+		<!-- шапка -->
+		<header>
+		<h1 id="main"><span id="you_are_caught">Ты попался</span></h1>
+		<a href="https://mangalib.me/?section=all-updates">Юл лав ит ай шуа</a>
+		</header>
+		<hr/>
+		<!-- шапка -->
+		
+		<!--основа-->
+		<main>
+		<p><em>Здесь</em> мы указываем, что <strong>используем</strong> разметку <s>HTML5</s>, кодировку utf-8, 
+		страница называется Whitesquare. Также подключаем наш файл стилей и внешний файл 
+		со стилями шрифтов.</p>
+		<p>hsdfhfghdfhdfhdfg</p>
+		<img src="images/14_15.png" alt="тогда пшол нхй" width="500" id="image">	
+		</main>
+		<!--основа-->
+		<table id="cow">
+			<thead>
+			<tr>
+				<th colspan="3">Ячейка</th>
+				
+			</tr>
+			</thead>
+			<tfoot>
+			<tr>
+				<th>Ячейка</th>
+				<th>Ячейка</th>
+				<th>Ячейка</th>
+			</tr>
+			</tfoot>
+			<tbody>
+			<tr>
+				<td rowspan="3">Ячейка</td>
+				<td>Ячейка</td>
+				<td rowspan="3">Ячейка</td>
+			</tr>
+			<tr>				
+				<td>Ячейка</td>
+			</tr>
+			<tr>				
+				<td>Ячейка</td>
+			</tr>
+			</tbody>
+			
+		</table>		
+		<table class="cool" id="dk">
+			<tr>
+				<td>
+				<ul>
+					<li>хех</li>
+					<li>хехее</li>
+					<li>хеХЕХЕ</li>
+					<li>хехХХАХВП</li>
+				</ul>
+				</td>
+				<td>
+				<ol start="58">
+					<li>хех</li>
+					<li>хехее</li>
+					<li>хеХЕХЕ</li>
+					<li>хехХХАХВПХАП</li>
+				</ol>
+				</td>
+			</tr>
+		</table>
+		
+		
+		<table class="cool">
+			<tr>
+				<td>Имя</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Пароль</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td>Отправить</td>
+				<td>
+				<input type="file">
+				<p><button>Сенд ит</button></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Текст</td>
+				<td>
+				<textarea></textarea>
+				<p><button>Отправить</button></p>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<select>
+					<option>Значение1</option>
+					<option>Значение2</option>
+					<option>Значение3</option>
+					</select>				
+				</td>
+				<td>
+				<select multiple="multiple">
+					<option>Значение1</option>
+					<option>Значение2</option>
+					<option>Значение3</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<form>
+					<p><input type="radio" name="rad">Опция1</p>
+					<p><input type="radio" name="rad" checked="checked">Опция2</p>
+					<p><input type="radio" name="rad">Опция2</p>
+				</form>
+				</td>
+				<td>
+					<p><input type="checkbox" name="rad">Опция1</p>
+					<p><input type="checkbox" name="rad">Опция2</p>
+					<p><input type="checkbox" name="rad">Опция2</p>
+				</td>
+			</tr>
+		</table>
+		<hr/>
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/Jl4oXmjD-Xo" frameborder="0" ></iframe>
+		<iframe width="800" height="450" src="https://rutube.ru/embed/10259312" frameborder="0" ></iframe>
+		
+		<audio controls>
+			<source src="images/Bobby Wright - Blood of an American.mp3" type="audio/mpeg">
+		</audio>
+		
+		<video src="images/1574418479_looped_1574418472.mp4" poster="images/14_26.jpg"controls></video>
+		
+		<div class='video-container'>
+			<video src="images/Attack on Titan Season 4 (Final Season) - Official Trailer - English Sub.mp4" poster="images/14_15.jpg" class='video-player' id='video-player' preload='metadata'></video>
+			<div class='video-hud'>
+			<div class='video-hud__element video-hud__action video-hud__action_play' id='video-hud__action'></div>
+			<div class='video-hud__element video-hud__curr-time' id='video-hud__curr-time'>00:00</div>
+			<progress value='0' max='100' class='video-hud__element video-hud__progress-bar' id='video-hud__progress-bar'></progress>
+			<div class='video-hud__element video-hud__duration' id='video-hud__duration'>00:00</div>
+			<div class='video-hud__element video-hud__mute video-hud__mute_false' id='video-hud__mute'></div>
+			<input type='range' value='100' max='100' title='Громкость' class='video-hud__element video-hud__volume' id='video-hud__volume'>
+			<select title='Скорость' class='video-hud__element video-hud__speed' id='video-hud__speed'>
+			<option value='25'>x0.25</option>
+			<option value='50'>x0.50</option>
+			<option value='75'>x0.75</option>
+			<option value='100' selected>x1.00</option>
+			<option value='125'>x1.25</option>
+			<option value='150'>x1.50</option>
+			<option value='175'>x1.75</option>
+			<option value='200'>x2.00</option>
+			</select>
+			<a class='video-hud__element video-hud__download' title='Скачать' href='video.mp4' download></a>
+			</div>
+		</div>
+
+		<footer>
+		<p>А терь <strong>ПШЛОЛ НАХ</strong></p>
+		
+		</footer>
+		
+       <!-- Напиши между тегами `script` `alert();` -->
+        <script>
+            
+        </script>
+    </body>
+</html>
